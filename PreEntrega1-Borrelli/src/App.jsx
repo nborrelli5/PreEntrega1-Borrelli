@@ -6,10 +6,10 @@ import './App.css'
 function App() {
   return (
     <>
-      <NavBar/>
-      <p>1</p>
-      <ItemListContainer greeting={"Bienvenidos a mi e-commerce"}/>
-
+      <div className='bg-neutral-600 min-h-screen'>
+        <NavBar/>
+        <ItemListContainer greeting={"Bienvenidos a CAPYBARA"}/>
+      </div>
     </>
   )
 }
